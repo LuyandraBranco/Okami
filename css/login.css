@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Quicksand;
+}
+body{
+	background: #eeeeee;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background: #FFF;
+	color: #A6AF13;
+}
+
+#logo{
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+
+}
+#container-login{
+	width: 380px;
+	height: 400px;
+	margin:0 auto;
+	background: #FFF;
+	margin-top: 5%;
+	border-radius: 5px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0,.5);
+}
+#option {
+	width: 380px;
+	height: 40px;
+	background: #fff;
+	display: flex;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+#option button{
+	width: 190px;
+	height: 40px;
+	text-align: center;
+	border: none;
+}
+.op1{
+	background: #A6AF13;
+}
+.op2{
+	background: #FFF;
+}
+.op1 a{
+	color:#FFF;
+	font-size: 15px;
+}
+.op2 a {
+	color: #A6AF13;
+	font-size: 15px;
+}
+
+#login h2{
+	text-align: center;
+	font-size: 25px;
+	color: #A6AF13;
+	margin-top: 5%;
+}
+#login input[type="text"],input[type="password"]{
+	border: none;
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 10%;
+	outline: none;
+	border-bottom: 1px solid #A6AF13;
+}
+#login input[type="text"]:focus,input[type="password"]:focus{
+	border-bottom: 1px solid #262626;
+}
+
+#login input[type="submit"]{
+	border: none;
+	padding: 10px;
+	width: 80%;
+	margin-top: 10%;
+	cursor: pointer;
+	margin-left: 10%;
+	background: #A6AF13;
+	margin-bottom: 7%;
+	color: #FFF;
+}
+u{
+	margin-left: 10%;
+	cursor: pointer;
+	color: #fff;
+}
